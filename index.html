@@ -1,12 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>nature's-platter</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="font-[sora]">
+    <header class="bg-linear-to-b from-[#FFFFFF] to-[#EFEBE3]">
+        <nav class="border-b sm:border-b-0 border-[#179800]">
+            <div class="my-5 flex justify-between items-center  w-[80%]  mx-auto">
+                <div class="w-[full]">
+                    <img class="hidden sm:block" src="./assets/logo-green.png" alt="#">
+                    <img class="sm:hidden" src="./assets/Group.png" alt="">
+                </div>
+                <div class="hidden sm:flex items-center ml-[30px] ">
+                    <a class="text-[20px] mr-3 " href="#">Product</a>
+                    <a class="text-[20px]  mr-3" href="#">Services</a>
+                    <a class="text-[20px]" href="#">Contact us</a>
+                </div>
+                <div class="flex items-center ">
+                    <i class="fa-solid fa-bars sm:hidden "></i>
+                    <i class="hidden sm:block fa-solid fa-magnifying-glass mr-4 "></i>
+                    <i class="hidden sm:block fa-solid fa-cart-shopping mr-4 "></i>
+                    <button
+                        class=" hidden sm:block px-[30px] py-[10px] rounded-[8px] bg-white border border-[#179800] text-[20px] font-normal mr-3">Login</button>
+                    <button
+                        class=" hidden sm:block px-[30px] py-[10px] rounded-[8px] bg-[#179800] text-[20px] text-[#ffffff] font-normal">Register</button>
+                </div>
+            </div>
+        </nav>
+    </header>
 </body>
+
 </html>
